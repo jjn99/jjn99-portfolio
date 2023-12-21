@@ -1,31 +1,17 @@
-<nav>
-  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-    <div class="relative flex h-16 items-center justify-between">
-      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-        <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-          <span class="absolute -inset-0.5"></span>
-          <span class="sr-only">Ouvrir le menu</span>
-          <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-          <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
-      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-        <div class="flex flex-shrink-0 items-center">
-          <h4 class="cursor-pointer" style="color: #846CE6;">JJN</h4>
-        </div>
-        <div class="hidden sm:ml-6 sm:block">
-          <div class="flex space-x-4">
-            <a routerLink="/home" routerLinkActive="text-[#846CE6] underline font-bold" class="text-gray-300 hover:text-[#846CE6] rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Dashboard</a>
-            <a href="#" routerLinkActive="text-[#846CE6] underline font-bold" class="text-gray-300 hover:text-[#846CE6] rounded-md px-3 py-2 text-sm font-medium">Team</a>
-            <a href="#" routerLinkActive="text-[#846CE6] underline font-bold" class="text-gray-300 hover:text-[#846CE6] rounded-md px-3 py-2 text-sm font-medium">Projects</a>
-            <a href="#" routerLinkActive="text-[#846CE6] underline font-bold" class="text-gray-300 hover:text-[#846CE6] rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
-          </div>
-        </div>
-      </div>
+<header class="mx-auto w-full fixed top-0 bg-[#0E0A14] z-50 px-2 sm:px-6 lg:px-8">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <div routerLink="/home" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-[#846CE6] rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <h4 class="cursor-pointer" style="color: #846CE6;">JJN</h4>
     </div>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <a routerLink="/home" routerLinkActive="text-[#846CE6] underline" class="text-gray-300 hover:text-[#846CE6] rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Dashboard</a>
+      <a routerLinkActive="text-[#846CE6] underline font-bold" class="text-gray-300 hover:text-[#846CE6] rounded-md px-3 py-2 text-sm font-medium">Education</a>
+      <a routerLinkActive="text-[#846CE6] underline font-bold" class="text-gray-300 hover:text-[#846CE6] rounded-md px-3 py-2 text-sm font-medium">Skills</a>
+      <a routerLinkActive="text-[#846CE6] underline font-bold" class="text-gray-300 hover:text-[#846CE6] rounded-md px-3 py-2 text-sm font-medium">Projects</a>
+      <a routerLinkActive="text-[#846CE6] underline font-bold" class="text-gray-300 hover:text-[#846CE6] rounded-md px-3 py-2 text-sm font-medium">Contact</a>
+    </nav>
   </div>
-</nav>
+</header>

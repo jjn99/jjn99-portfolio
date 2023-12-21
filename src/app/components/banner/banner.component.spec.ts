@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LanguageBannerComponent } from './language-banner.component';
+import { BannerComponent } from './banner.component';
 
-describe('LanguageBannerComponent', () => {
-  let component: LanguageBannerComponent;
-  let fixture: ComponentFixture<LanguageBannerComponent>;
+describe('BannerComponent', () => {
+  let component: BannerComponent;
+  let fixture: ComponentFixture<BannerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LanguageBannerComponent]
+      imports: [BannerComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(LanguageBannerComponent);
+    fixture = TestBed.createComponent(BannerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
