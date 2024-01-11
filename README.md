@@ -1,6 +1,6 @@
 # Jjn99Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
 ## Development server
 
@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Home Part
+<img height="907" src="src/assets/images/appImage/home.png" width="1899" alt=""/>
+
+## Skills Part
+<img height="910" src="src/assets/images/appImage/skills.png" width="1878" alt=""/>
+
+## Contact Part
+<img height="908" src="src/assets/images/appImage/contact.png" width="1887" alt=""/>
+

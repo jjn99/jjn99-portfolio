@@ -4,10 +4,9 @@
 @tailwind utilities;
 
 body {
-  background-color: #221C35 !important;
-  margin: 0;
-  padding: 0;
+  //background-color: #221C35 !important;
+  background: rgb(14,10,20);
+  background: linear-gradient(0deg, rgba(14,10,20,1) 5%, rgba(70,32,134,0.9697128851540616) 85%, rgba(14,10,20,1) 95%);
   min-height: 100svh;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 1rem;
 }
